@@ -2,6 +2,7 @@
 
 "Pyclipse" is an automated Python-Eclipse package for static model construction, simulation execution, and result analysis, reducing workflow duration by over 80%.
 
+![image](https://github.com/user-attachments/assets/267cb511-707f-422e-b254-114354bd6c78)
 
 
 This repository is designed to generate all the input files needed for running reservoir simulations in Eclipse, specifically for Gulf of Mexico Paleogene Reservoirs. The process begins with creating a geological lobe model, followed by populating the grids with specified properties. The package then runs all possible parameter combinations in parallel by executing Eclipse, efficiently monitoring CPU usage and automatically starting new simulations as soon as resources are available. This ensures that the CPU is utilized fully and efficiently.
